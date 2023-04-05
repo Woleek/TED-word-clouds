@@ -1,0 +1,4 @@
+NLP project, which goal was to create Word Clouds based on TED Talks transcripts from __[TED Talks Transcripts for NLP](https://www.kaggle.com/datasets/miguelcorraljr/ted-ultimate-dataset)__ dataset.  
+Dataset contains scraped information about TED Talks including ID, comments, topics, transcript and watching statistics and is split by individual talks. In this project new dataset was formed by dividing data into topics with lists of talk IDs reffering to that specific topic and corpuses of combined transcripts of them.  
+Corpuses of text are first cleaned by removing text in brackets, punctation, alphanumerics, quotes and dashes. Text is then tokenized and stop words are removed. Finally lammatization is performed on tokens.  
+With this dataset one can fetch data by chosen topic and create word cloud to analyze what words are used most common in TED talks related to that subject.
